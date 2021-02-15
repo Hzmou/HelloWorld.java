@@ -11,6 +11,9 @@ public class helloworld {
 		
 		System.out.println(" Hello World! ");
 		
+                // Adding the first message.
+               
+                System.out.println("Here ye : important announcement");
 		
 	}
 	

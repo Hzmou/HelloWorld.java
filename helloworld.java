@@ -33,6 +33,9 @@ public class helloworld {
 
           System.out.println(" Hi Denise!)
 
+         // Saying Hi to Ester.
+         System.out.println("Hi Ester!");
+
 
            
 

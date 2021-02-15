@@ -11,9 +11,6 @@ public class helloworld {
 		
 		System.out.println(" Hello World! ");
             
-                 //Alice code.
-               System.out.println("Hi Alice");
-
 		
                 // Adding the first message.
                
@@ -27,6 +24,9 @@ public class helloworld {
            //Saying Hi to both Alice and Bob.
 
            System.out.println("Hi to Alice and Bob!");
+           
+                 //Alice code.
+               System.out.println("Hi Alice");
 
 
           // saying hi to Denise.

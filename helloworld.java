@@ -36,6 +36,14 @@ public class helloworld {
        LocalDateTime now = LocalDateTime.now();  
         System.out.println(dtf.format(now));  
 
+        /* Displaying Available memory to the user.*/
+        int mb = 1024 * 1024;
+        System.out.println("Available Memory is: "
+        +Runtime.getRuntime().freeMemory()/mb +" MB");
+       
+          
+ 
+
          
 
            

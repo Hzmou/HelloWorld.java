@@ -28,12 +28,16 @@ public class helloworld {
     // Saying Hi to Ester.
     System.out.println("Hi Ester!");
 
-    /* Displaying Available memory to the user.*/
-    int mb = 1024 * 1024;
-    System.out.println("Available Memory is: "
-    +Runtime.getRuntime().freeMemory()/mb +" MB");
-   
+    /* Displaying the Current date to the user. */
+    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+    LocalDateTime now = LocalDateTime.now();
+    System.out.println("Today's date and time: ");
+    System.out.println(dtf.format(now));
+
+  }
+
 
     }
 
-}
+
+

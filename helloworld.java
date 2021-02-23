@@ -28,6 +28,12 @@ public class helloworld {
     // Saying Hi to Ester.
     System.out.println("Hi Ester!");
 
+    /* Displaying Available memory to the user.*/
+    int mb = 1024 * 1024;
+    System.out.println("Available Memory is: "
+    +Runtime.getRuntime().freeMemory()/mb +" MB");
    
+
+    }
 
 }

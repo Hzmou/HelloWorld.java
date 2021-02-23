@@ -28,9 +28,12 @@ public class helloworld {
     // Saying Hi to Ester.
     System.out.println("Hi Ester!");
 
-    /* Displaying Available memory to the user.*/
-    
+    /* Displaying Available memory to the user. */
+    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
+    LocalDateTime now = LocalDateTime.now();
+    System.out.println("Today's date and time: ");
+    System.out.println(dtf.format(now));
 
-    }
+  }
 
 }
